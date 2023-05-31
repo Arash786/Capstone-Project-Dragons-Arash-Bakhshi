@@ -1399,3 +1399,9 @@
 2023-05-31 15:57:09,631 - logger_File -INFO - user entered required information into sign up form
 2023-05-31 15:57:09,778 - logger_File -INFO - user clicked on Sign up Button
 2023-05-31 15:57:10,609 - logger_File -INFO - user logged in
+2023-05-31 16:22:07,988 - logger_File -INFO - React App is equal to React App
+2023-05-31 16:22:08,411 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 16:22:08,587 - logger_File -INFO - user clicked on Create New Account button
+2023-05-31 16:22:09,398 - logger_File -INFO - user entered required information into sign up form
+2023-05-31 16:22:09,565 - logger_File -INFO - user clicked on Sign up Button
+2023-05-31 16:22:10,626 - logger_File -INFO - user logged in
