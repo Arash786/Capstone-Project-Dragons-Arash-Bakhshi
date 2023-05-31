@@ -1361,3 +1361,13 @@
 2023-05-31 14:58:34,826 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@12345
 2023-05-31 14:58:34,982 [main] INFO logger_File - user clicked on login button
 2023-05-31 14:58:35,322 [main] INFO logger_File - user logged in ito account
+2023-05-31 15:14:15,984 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:14:16,420 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:14:16,841 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@2345
+2023-05-31 15:14:16,980 [main] INFO logger_File - user clicked on login button
+2023-05-31 15:14:17,277 [main] INFO logger_File - user logged in ito account
+2023-05-31 15:14:55,037 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:14:55,319 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:14:55,864 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@2345
+2023-05-31 15:14:56,008 [main] INFO logger_File - user clicked on login button
+2023-05-31 15:14:56,445 [main] INFO logger_File - user logged in ito account
