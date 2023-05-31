@@ -3,7 +3,7 @@ Feature: Retail Account Page
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@1234'
+    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
@@ -11,7 +11,7 @@ Feature: Retail Account Page
   @updateNameAndPhone
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'Aarsshh' and Phone '2349868056'
+    And User update Name 'Aarssh' and Phone '2349868060'
     And User click on Update button
     Then user profile information should be updated
 
@@ -19,7 +19,7 @@ Feature: Retail Account Page
   Scenario: Verify User can Update password
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Adell@1234       | Adell@12345 | Adell@12345     |
+      | Adell@12345      | Adell@2345  | Adell@2345      |
     And User click on Change Password button
     Then a message should be displayed Password Updated Successfully
 
@@ -28,7 +28,7 @@ Feature: Retail Account Page
     And User click on Add a payment method link
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7362853654614819 | Ahmmad      |              12 |           2024 |          656 |
+      | 7362853654611621 | Ahmmad     |              12 |           2024 |          656 |
     And User click on Add your Card button
     Then a message should be displayed Payment Method added successfully
 
@@ -38,7 +38,7 @@ Feature: Retail Account Page
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7362859624955035 | Aaddill     |              12 |           2025 |          499 |
+      | 7362859624951059 | Aaddill    |              12 |           2025 |          499 |
     And user click on Update Your Card button
     Then a message should be displayed Payment Method updated Successfully
 
@@ -53,7 +53,7 @@ Feature: Retail Account Page
     And User click on Add address option
     And user fill new address form with below information
       | country     | fullName   | phoneNumber | streetAddress | apt  | city    | state | zipCode |
-      | Afghanistan | Araash Pjr |  1234560945 | Khairr khanaa | 5800 | Kaabull | Kabul |   76137 |
+      | Afghanistan | Araash Pjr |  1234560901 | Khairr khanaa | 5800 | Kaabull | Kabul |   76137 |
     And User click on Add Your Address button
     Then a message should be displayed Address Added Successfully
 
@@ -61,8 +61,8 @@ Feature: Retail Account Page
   Scenario: Verify User can edit an Address added on account
     And User click on edit address option
     And User fill new address form with below information
-      | country     | fullName  | phoneNumber | streetAddress | apt | city   | state | zipCode |
-      | Afghanistan | Mohaammadd |  1234567867 | Baharistan    | 459 | kabull | Kabul |   24573 |
+      | country     | fullName   | phoneNumber | streetAddress | apt | city   | state | zipCode |
+      | Afghanistan | Mohaammadd |  1234567813 | Baharistan    | 459 | kabull | Kabul |   24573 |
     And User click update Your Address button
     Then a message should be displayed Address Updated Successfully
 
