@@ -24,10 +24,10 @@ public class RetailAccountSteps extends CommonUtility{
 	}
 	
 	
-	// @updatePassword
+	// @updateProfile
 	//  Scenario: Verify User can update Profile Information
 	@And("User update Name {string} and Phone {string}")
-	public void userUpdateNameAndPhone (String name, String phone) {
+	public void userUpdateNameAndPhone (String name, String phone) throws InterruptedException {
 		
 		
         clearTextUsingSendKeys(factory.accountPage().NameField);
@@ -36,7 +36,7 @@ public class RetailAccountSteps extends CommonUtility{
 		clearTextUsingSendKeys(factory.accountPage().PhoneField);
 		sendText(factory.accountPage().PhoneField,phone);
 		logger.info("user profile information should be updated");
-			
+		Thread.sleep(2000);	
 	}
 	
 	@And("User click on Update button")
