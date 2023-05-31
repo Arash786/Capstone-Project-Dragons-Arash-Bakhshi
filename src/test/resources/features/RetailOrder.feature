@@ -3,7 +3,7 @@ Feature: Retail Order Page
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@2345'
+    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@1234'
     And User click on login button
     And User should be logged in into Account
     And User click on Orders section
