@@ -1319,3 +1319,19 @@
 2023-05-13 17:33:12,661 - logger_File -INFO - User write review on headline and review text
 2023-05-13 17:33:12,782 - logger_File -INFO - User click add review button
 2023-05-13 17:33:15,824 - logger_File -INFO - A message diplayed Your Review Was Added Successfully
+2023-05-29 19:29:20,841 - logger_File -INFO - React App is equal to React App
+2023-05-29 19:29:21,381 - logger_File -INFO - user clicked on sign in option succefully
+2023-05-29 19:29:22,458 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@1234
+2023-05-29 19:29:22,697 - logger_File -INFO - user clicked on login button
+2023-05-29 19:29:23,208 - logger_File -INFO - user logged in ito account
+2023-05-29 19:29:23,729 - logger_File -INFO - User clicked on Order Section
+2023-05-29 19:29:24,176 - logger_File -INFO - User clicked on first order from the list
+2023-05-29 19:29:24,462 - logger_File -INFO - User click on Review Button
+2023-05-29 19:29:25,249 - logger_File -INFO - User write review on headline and review text
+2023-05-29 19:29:25,506 - logger_File -INFO - User click add review button
+2023-05-29 19:29:28,590 - logger_File -INFO - A message diplayed Your Review Was Added Successfully
+2023-05-31 13:11:23,253 - logger_File -INFO - React App is equal to React App
+2023-05-31 13:11:23,500 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 13:11:23,880 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@1234
+2023-05-31 13:11:24,001 - logger_File -INFO - user clicked on login button
+2023-05-31 13:11:24,429 - logger_File -INFO - user logged in ito account
