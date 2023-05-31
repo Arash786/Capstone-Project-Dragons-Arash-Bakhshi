@@ -3,7 +3,7 @@ Feature: Retail Account Page
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@2345'
+    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
@@ -19,7 +19,7 @@ Feature: Retail Account Page
   Scenario: Verify User can Update password
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Adell@2345      | Adell@12345  | Adell@12345      |
+      | Adell@12345      | Adell@1234  | Adell@1234      |
     And User click on Change Password button
     Then a message should be displayed Password Updated Successfully
 
@@ -28,7 +28,7 @@ Feature: Retail Account Page
     And User click on Add a payment method link
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7362853654614567 | Ahmmad     |              12 |           2024 |          656 |
+      | 7362853654619742 | Ahmmad     |              12 |           2024 |          656 |
     And User click on Add your Card button
     Then a message should be displayed Payment Method added successfully
 
@@ -38,7 +38,7 @@ Feature: Retail Account Page
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7362859624951380 | Aaddill    |              12 |           2025 |          499 |
+      | 7362859624951479 | Aaddill    |              12 |           2025 |          499 |
     And user click on Update Your Card button
     Then a message should be displayed Payment Method updated Successfully
 
@@ -53,7 +53,7 @@ Feature: Retail Account Page
     And User click on Add address option
     And user fill new address form with below information
       | country     | fullName   | phoneNumber | streetAddress | apt  | city    | state | zipCode |
-      | Afghanistan | Araash Pjr |  1234560971 | Khairr khanaa | 5800 | Kaabull | Kabul |   76137 |
+      | Afghanistan | Araash Pjr |  1234560914 | Khairr khanaa | 5800 | Kaabull | Kabul |   76137 |
     And User click on Add Your Address button
     Then a message should be displayed Address Added Successfully
 
@@ -62,7 +62,7 @@ Feature: Retail Account Page
     And User click on edit address option
     And User fill new address form with below information
       | country     | fullName   | phoneNumber | streetAddress | apt | city   | state | zipCode |
-      | Afghanistan | Mohaammadd |  1234567881 | Baharistan    | 459 | kabull | Kabul |   24573 |
+      | Afghanistan | Mohaammadd |  1234567812 | Baharistan    | 459 | kabull | Kabul |   24573 |
     And User click update Your Address button
     Then a message should be displayed Address Updated Successfully
 
