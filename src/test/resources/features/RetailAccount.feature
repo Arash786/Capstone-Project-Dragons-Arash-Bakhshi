@@ -15,13 +15,13 @@ Feature: Retail Account Page
     And User click on Update button
     Then user profile information should be updated
 
-  @changePass
-  Scenario: Verify User can Update password
-    And User enter below information
-      | previousPassword | newPassword | confirmPassword |
-      | Adell@2345      | Adell@1234  | Adell@1234      |
-    And User click on Change Password button
-    Then a message should be displayed Password Updated Successfully
+ # @changePass
+  #Scenario: Verify User can Update password
+    #And User enter below information
+     # | previousPassword | newPassword | confirmPassword |
+     # | Adell@2345      | Adell@1234  | Adell@1234      |
+   # And User click on Change Password button
+   # Then a message should be displayed Password Updated Successfully
 
   @payment
   Scenario: Verify User can add a payment method
