@@ -1371,3 +1371,31 @@
 2023-05-31 15:14:55,864 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@2345
 2023-05-31 15:14:56,008 [main] INFO logger_File - user clicked on login button
 2023-05-31 15:14:56,445 [main] INFO logger_File - user logged in ito account
+2023-05-31 15:50:19,737 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:50:20,287 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:50:20,869 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@1234
+2023-05-31 15:50:21,047 [main] INFO logger_File - user clicked on login button
+2023-05-31 15:51:02,587 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:51:02,923 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:51:03,382 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@1234
+2023-05-31 15:51:03,531 [main] INFO logger_File - user clicked on login button
+2023-05-31 15:51:48,031 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:51:48,701 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:51:49,170 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@12345
+2023-05-31 15:51:49,303 [main] INFO logger_File - user clicked on login button
+2023-05-31 15:52:16,967 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:52:17,311 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:52:17,845 [main] INFO logger_File - user entered email arash.bakhshi55@gmail.comand password Adell@2345
+2023-05-31 15:52:17,983 [main] INFO logger_File - user clicked on login button
+2023-05-31 15:52:18,311 [main] INFO logger_File - user logged in ito account
+2023-05-31 15:56:33,025 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:56:33,336 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:56:33,554 [main] INFO logger_File - user clicked on Create New Account button
+2023-05-31 15:56:34,299 [main] INFO logger_File - user entered required information into sign up form
+2023-05-31 15:56:34,440 [main] INFO logger_File - user clicked on Sign up Button
+2023-05-31 15:57:08,231 [main] INFO logger_File - React App is equal to React App
+2023-05-31 15:57:08,541 [main] INFO logger_File - user clicked on Sign In option
+2023-05-31 15:57:08,754 [main] INFO logger_File - user clicked on Create New Account button
+2023-05-31 15:57:09,631 [main] INFO logger_File - user entered required information into sign up form
+2023-05-31 15:57:09,778 [main] INFO logger_File - user clicked on Sign up Button
+2023-05-31 15:57:10,609 [main] INFO logger_File - user logged in

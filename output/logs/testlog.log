@@ -1371,3 +1371,31 @@
 2023-05-31 15:14:55,864 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@2345
 2023-05-31 15:14:56,008 - logger_File -INFO - user clicked on login button
 2023-05-31 15:14:56,445 - logger_File -INFO - user logged in ito account
+2023-05-31 15:50:19,737 - logger_File -INFO - React App is equal to React App
+2023-05-31 15:50:20,287 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 15:50:20,869 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@1234
+2023-05-31 15:50:21,047 - logger_File -INFO - user clicked on login button
+2023-05-31 15:51:02,587 - logger_File -INFO - React App is equal to React App
+2023-05-31 15:51:02,923 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 15:51:03,382 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@1234
+2023-05-31 15:51:03,531 - logger_File -INFO - user clicked on login button
+2023-05-31 15:51:48,031 - logger_File -INFO - React App is equal to React App
+2023-05-31 15:51:48,701 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 15:51:49,170 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@12345
+2023-05-31 15:51:49,303 - logger_File -INFO - user clicked on login button
+2023-05-31 15:52:16,967 - logger_File -INFO - React App is equal to React App
+2023-05-31 15:52:17,311 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 15:52:17,845 - logger_File -INFO - user entered email arash.bakhshi55@gmail.comand password Adell@2345
+2023-05-31 15:52:17,983 - logger_File -INFO - user clicked on login button
+2023-05-31 15:52:18,311 - logger_File -INFO - user logged in ito account
+2023-05-31 15:56:33,025 - logger_File -INFO - React App is equal to React App
+2023-05-31 15:56:33,336 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 15:56:33,554 - logger_File -INFO - user clicked on Create New Account button
+2023-05-31 15:56:34,299 - logger_File -INFO - user entered required information into sign up form
+2023-05-31 15:56:34,440 - logger_File -INFO - user clicked on Sign up Button
+2023-05-31 15:57:08,231 - logger_File -INFO - React App is equal to React App
+2023-05-31 15:57:08,541 - logger_File -INFO - user clicked on Sign In option
+2023-05-31 15:57:08,754 - logger_File -INFO - user clicked on Create New Account button
+2023-05-31 15:57:09,631 - logger_File -INFO - user entered required information into sign up form
+2023-05-31 15:57:09,778 - logger_File -INFO - user clicked on Sign up Button
+2023-05-31 15:57:10,609 - logger_File -INFO - user logged in
