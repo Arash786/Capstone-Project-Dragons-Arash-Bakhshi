@@ -19,7 +19,7 @@ Feature: Retail Account Page
   Scenario: Verify User can Update password
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Adell@1234       | Adell@12345 | Adell@12345     |
+      | Adell@12345       | Adell@123456 | Adell@123456     |
     And User click on Change Password button
     Then a message should be displayed Password Updated Successfully
 
