@@ -4,7 +4,7 @@ Feature: Sign In Feature
   Scenario: Verify user can sign in into Retail Application
     Given User is on retail website
     When User click On Signin  option
-    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@12345'
+    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@1234'
     And User click on login button
     Then User should be logged in into Account
 
@@ -15,6 +15,6 @@ Feature: Sign In Feature
     And User click on Create New Account button
     And User fill the signUp information with below data
       | name          | email              | password  | confirmPassword |
-      | ddraaoaoagnss | Addeaolba@gmail.com | Tek@7861 | Tek@7861       |
+      | ddraoaoagnss | Addoeaolba@gmail.com | Tek@7861 | Tek@7861       |
     And User click on SignUp button
     Then User should be logged into account page
