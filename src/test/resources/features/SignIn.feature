@@ -15,6 +15,6 @@ Feature: Sign In Feature
     And User click on Create New Account button
     And User fill the signUp information with below data
       | name          | email              | password  | confirmPassword |
-      | ddraoaoaoagns | Adeaolba@gmail.com | Tek@12345 | Tek@12345       |
+      | ddraaoaoagnss | Addeaolba@gmail.com | Tek@7861 | Tek@7861       |
     And User click on SignUp button
     Then User should be logged into account page
