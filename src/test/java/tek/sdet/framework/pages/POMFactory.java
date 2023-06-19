@@ -23,6 +23,7 @@ public class POMFactory extends BaseSetup {
     public RetailSignInPage signInPage() {
     	return this.signInPage;
     	
+    	
     }
     public RetailAccountPage accountPage() {
    	return this.accountPage;
