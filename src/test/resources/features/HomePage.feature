@@ -41,7 +41,7 @@ Feature: Retail Home Page
   @placeAnOrder
   Scenario: Verify User can place an order without Shipping address and payment Method on file
     When User click on Sign in  Option
-    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@12345'
+    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@1234'
     And User click on login button
     And User should be logged in into Account
     And User change the category to 'Smart Home'
@@ -56,12 +56,12 @@ Feature: Retail Home Page
     And User click Add a new address link for shipping address
     And User fill the new address form with below information
       | Country       | FullName   | PhoneNumber | StreetAddress  | Apt  | City         | State    | ZipCode |
-      | United States | Adamm Khan |  8178333588 | 345 School Ave | 1033 | Falls Church | Virginia |   76135 |
+      | United States | Adamm Khan |  8178333577 | 345 School Ave | 1033 | Falls Church | Virginia |   76135 |
     And User click Add Your Address  button
     And User click Add a credit card or Debit Card for Payment method
     And User fill the Debit or credit card information
       | CardNumber       | NameOnCard | ExpirationMonth | ExpirationYear | SecurityCode |
-      | 4444772352810033 | Ali Jan    |              12 |           2025 |          546 |
+      | 4444772352815599 | Ali Jan    |              12 |           2025 |          546 |
     And User click on Add your card button
     And User click on Place Your Order
     Then a message should be displayed Order Placed, Thanks
@@ -69,7 +69,7 @@ Feature: Retail Home Page
   @OrderAdded
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     When User click on Sign in option
-    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@12345'
+    And User enter email 'arash.bakhshi55@gmail.com' and password 'Adell@1234'
     And User click on login button
     And User should be logged in into Account
     And user change the category to 'Electronics'
